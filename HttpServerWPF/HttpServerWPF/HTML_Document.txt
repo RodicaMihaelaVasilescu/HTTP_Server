@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("https://w0.peakpx.com/wallpaper/113/226/HD-wallpaper-spacey-black-dark-galaxy-space-stars.jpg");
+      }
+      p {
+      font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <p id="date"></p>
+    <script>
+      document.getElementById("date").innerHTML =
+        "Server started <br> Server Time is: " + Date().toLocaleString();
+    </script>
+  </body>
+</html>
